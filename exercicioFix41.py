@@ -1,3 +1,9 @@
+# RA: 1051392411014
+# Nome aluno: Ramon Godinho
+# Data: 06/04/2024
+# Descrição: Recebe um valor e realiza uma operação de acordo com o valor digitado.
+print("RA: 1051392411014, Nome: Ramon Godinho, Turma: 1 semestre DSM ")
+
 import math
 
 valor = int(input("Digite um valor: "))
