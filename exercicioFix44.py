@@ -1,3 +1,9 @@
+# RA: 1051392411014
+# Nome aluno: Ramon Godinho
+# Data: 23/04/2024
+# Descrição: Recebe um valor e executa uma operação de acordo com as condições.
+print("RA: 1051392411014, Nome: Ramon Godinho, Turma: 1 semestre DSM ")
+
 import math
 
 def valor_trabalhado(valor):
