@@ -4,16 +4,17 @@
 # Descrição: Calcula a média de um aluno e verifica se ele foi aprovado ou não.
 print("RA: 1051392411014, Nome: Ramon Godinho, Turma: 1 semestre DSM ")
 
-nome = input("Digite seu nome: ")
-ra = input("Digite seu RA: ")
-nota1 = float(input("Digite a nota 1: "))
-nota2 = float(input("Digite a nota 2: "))
+def student_grade():
+    nome = input("Digite seu nome: ")
+    ra = input("Digite seu RA: ")
+    nota1 = float(input("Digite a nota 1: "))
+    nota2 = float(input("Digite a nota 2: "))
 
-# Calcula a média do aluno
-media = (nota1 + nota2) / 2
+    media = (nota1 + nota2) / 2
 
-# Verifica se a média é maior ou igual a sete
-if media >= 7:
-  print("Parabéns, você está aprovado!")
-else:
-  print("Você ainda tem uma chance! Estude mais para o exame")
+    if media >= 7:
+        print(f"Parabéns {nome}, sua média é {media:.2f} Você está aprovado!")
+    else:
+        print(f"Você ainda tem uma chance, {nome}! Estude mais para o exame")
+
+student_grade()
