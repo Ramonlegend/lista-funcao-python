@@ -1,6 +1,6 @@
 # RA: 1051392411014
 # Nome aluno: Ramon Godinho
-# Data: 06/04/2024
+# Data: 23/04/2024
 # Descrição: Calcula a média de um aluno e verifica se ele foi aprovado ou não.
 print("RA: 1051392411014, Nome: Ramon Godinho, Turma: 1 semestre DSM ")
 
